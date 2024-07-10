@@ -1,0 +1,106 @@
+.footer_main_container{
+    width: 100%;
+    height: max-content;
+    background: black;
+    margin-top: 1rem;
+    font-family: primary-font-Medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content_container{
+    margin: 3rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    
+}
+
+.footer_content_item_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 17%;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.footer_content_item_container ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    /* background: red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #585858;
+}
+
+.footer_content_item_container ul li{
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.footer_content_item_container ul li:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer_copyrigth_container{
+    font-size: 3rem;
+    color: var(--primary-color);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--primary-color);
+    width: 98%;
+    flex-direction: column;
+    
+}
+
+.footer_icon_container{
+    display: flex;
+    margin: 1rem;
+
+}
+
+
+.footer_icon_container a{
+    background: black;
+    border: 2px solid var(--primary-color);
+    margin: 1rem;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 60%;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+
+.footer_icon_container a:hover{
+    background: var(--highlight-color);
+    border: none;
+    color: var(--primary-background);
+}
+
+
+h4{
+    font-size: 30%;
+    margin: 1rem;
+}

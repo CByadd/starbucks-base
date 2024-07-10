@@ -1,0 +1,45 @@
+:root {
+    --primary-background: #000000;
+    --secondary-background: #1e3932;
+    --highlight-background: #191919;
+    --primary-color: #f7f7f7;
+    --secondary-color: #ababab;
+    --highlight-color: #00a76f;
+    font-size: 23px;
+  }
+
+
+  @font-face {
+    font-family: primary-font-light;
+    src: url(../assets/fonts/static/Montserrat-Light.ttf);
+  }
+  @font-face {
+    font-family: primary-font-Medium;
+    src: url(../assets/fonts/static/Montserrat-Medium.ttf);
+  }
+  @font-face {
+    font-family: primary-font-Bold;
+    src: url(../assets/fonts/static/Montserrat-Bold.ttf);
+  }
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body{
+    background-color: var(--highlight-color);
+    margin: 0;
+    padding: 0;
+
+/* these two are for easy to spot styling if somthings is undeclared font and color,remove before production building */
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+
