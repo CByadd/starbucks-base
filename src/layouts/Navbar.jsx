@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 import styles from './../styles/Navbar.module.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import StoreLocator from './StoreLocator';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isStoreLocatorOpen, setIsStoreLocatorOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleStoreLocator = () => {
+    setIsStoreLocatorOpen(!isStoreLocatorOpen);
   };
 
   return (
@@ -20,7 +26,7 @@ const Navbar = () => {
           <a href="#">Gift Cards</a>
         </div>
         <div className={styles.user_items}>
-          <a href="#"><FaLocationDot /> Find a Store</a>
+          <a href="#" onClick={toggleStoreLocator}><FaLocationDot /> Find a Store</a>
           <button>Sign in</button>
           <button>Join Now</button>
         </div>
@@ -28,8 +34,9 @@ const Navbar = () => {
       <div className={styles.hamburger} onClick={toggleMenu}>
         {isMenuOpen ? <FaTimes /> : <FaBars />}
       </div>
+      <StoreLocator isOpen={isStoreLocatorOpen} onClose={toggleStoreLocator} />
     </div>
   );
-}
+};
 
 export default Navbar;

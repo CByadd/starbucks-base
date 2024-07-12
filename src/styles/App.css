@@ -9,6 +9,11 @@
   }
 
 
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+
   @font-face {
     font-family: primary-font-light;
     src: url(../assets/fonts/static/Montserrat-Light.ttf);
@@ -28,13 +33,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
   }
 
 
+  
+
   body{
-    background-color: var(--highlight-color);
+    background-color: var(--primary-background);
     margin: 0;
     padding: 0;
+    user-select: none;
+    ;
 
 /* these two are for easy to spot styling if somthings is undeclared font and color,remove before production building */
     color: aqua;

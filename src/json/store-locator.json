@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Beus Starbucks",
+      "address": "123 Main St, City, Country",
+      "imageUrl": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720783394/Starbucks/360_F_325425609_PzCw7TRsmgDgPLkK6Twwb41RdTaULgdb_2_tonxcz.jpg",
+      "position": { "top": "20%", "left": "30%" }
+    },
+    {
+      "id": 2,
+      "name": "Sonia Starbucks",
+      "address": "456 Elm St, City, Country",
+      "imageUrl": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720783394/Starbucks/images_2_h1anbu.jpg",
+      "position": { "top": "50%", "left": "50%" }
+    },
+    {
+      "id": 3,
+      "name": "Grandmaster Starbucks",
+      "address": "789 Oak St, City, Country",
+      "imageUrl": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720783394/Starbucks/feb73c693be9aec8d4e84010790e2458_2_uphsst.jpg",
+      "position": { "top": "30%", "left": "80%" }
+    }
+  ]
+  

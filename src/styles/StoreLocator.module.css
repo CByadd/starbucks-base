@@ -1,0 +1,316 @@
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal_container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 100;
+}
+
+.close_modal_button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.store_locator_backdrop_blur{
+    width: 100dvw;
+    height: 100dvh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.store_locator_searchbox_container{
+  height: 50px;
+  /* background: rgb(38, 73, 73); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+/* .store_locator_searchbox{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+} */
+
+/* .search_icon{
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .store_locator_searchbox input{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+} */
+
+.store_locator_hold_container{
+  width: 100%;
+  /* background: chartreuse; */
+}
+
+.store_locator_main_container {
+    background: white;
+    width: 80dvw;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    font-family: primary-font-Medium;
+    
+
+  }
+  
+  .store_locator_container {
+    position: relative;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    
+  }
+  
+  .map_image {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .store_locator_point{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    /* background-color: red; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+  }
+
+  .store_locator_point img{
+height: 100%;
+  }
+
+  .store_locator_point:hover{
+    background: green;
+  }
+  
+  .store_locator_popup {
+    position: absolute;
+    background-color: var(--highlight-color);
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* padding: 10px; */
+    z-index: 100;
+    width: 250px;
+    height: 250px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    transition: .3s ease-in-out;
+    /* overflow: hidden; */
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    color: var( --primary-color);
+  }
+
+  
+  .store_locator_popup_heading{
+    width: 90%;
+    /* background: mediumaquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 1rem; */
+    margin: 1rem;
+
+  }
+  
+  .close_button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: -4%;
+    right: -4%;
+    font-size: 2rem;
+    background: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close_button:hover{
+    /* background: black;
+    color: white; */
+    scale: .9;
+  }
+
+  .popup_image_container{
+    width: 100%;
+    /* background: greenyellow; */
+    display: flex;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup_image {
+    display: flex;
+    /* margin-top: 10px; */
+    width: 100%;
+    position: relative;
+   
+  }
+  
+  
+
+  .store_locator_details_container{
+    width: 30%;
+    /* background: white; */
+    display: flex;
+    position: relative;
+    /* height: 100%; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    /* background: red; */
+    
+    
+  }
+
+
+
+  .store_locator_details_container button{
+    width: max-content;
+    padding: 20px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    gap: 1rem;
+    background: var(--highlight-color);
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+
+  .store_locator_details_container button:hover{
+    background: var(--primary-background);
+    color:white;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+  }
+
+  .store_locator_hold_container{
+    display: flex;
+  }
+
+  h1{
+    color: #000;
+  }
+
+  .store_locator_details_container input{
+    width: 80%;
+    height: 30px;
+    padding: 20px;
+    border:2px solid var(--highlight-background);
+    /* background: rgba(99, 238, 99, 0.151); */
+    border-radius: 10px;
+
+  }
+
+  .store_locator_details_container input::placeholder{
+    color: rgba(0, 0, 0, 0.411);
+  }
+
+  .store_locator_details_container input:focus{
+   outline: none;
+  }
+
+
+  @media (max-width: 850px){
+    .store_locator_main_container{
+      /* height: auto; */
+      position: relative;
+    }
+    .store_locator_hold_container{
+      flex-direction: column;
+      height: max-content;
+    }
+    .store_locator_container{
+      width: 100%;
+      height: max-content;
+    }
+
+    .store_locator_details_container{
+      width: 100%;
+      height: 100%;
+      margin-top: 3rem;
+     
+    }
+    .store_locator_popup{
+      display: none;
+    }
+  }
