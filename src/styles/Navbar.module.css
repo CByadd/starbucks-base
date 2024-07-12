@@ -6,6 +6,7 @@
     background: rgb(0, 0, 0);
     justify-content: space-between;
     overflow: hidden;
+    z-index: 1000;
   
    
    
@@ -135,12 +136,14 @@ margin: 1rem;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.9);
       position: absolute;
-      top: -100px;
+      top: -700px;
       left: 0;
       padding: 1rem 0;
-      opacity: 0;
+      opacity: .9;
       transform: translateY(-200px);
       transition: .3s ease-in-out;
+      z-index: 900;
+      
      
     }
   
@@ -149,6 +152,7 @@ margin: 1rem;
       opacity: 1;
       top: 100px;
       transform: translateY(0);
+      z-index: 1000;
     }
   
     .branding_items, .user_items {

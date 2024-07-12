@@ -1,0 +1,21 @@
+[
+    {
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  minus aspernatur dolorem qui explicabo doloribus?",
+      "username": "Sagar",
+      "rating": 5,
+      "image": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720801934/Starbucks/images_4_eewckg.jpg"
+    },
+    {
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  minus aspernatur dolorem qui explicabo doloribus?",
+      "username": "Jane Smith",
+      "rating": 3,
+      "image": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720801937/Starbucks/15f40a8911affd09548726a235e4d181_jnouei.jpg"
+    },
+    {
+      "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit.  minus aspernatur dolorem qui explicabo doloribus?",
+      "username": "Bob Johnson",
+      "rating": 1,
+      "image": "https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720801934/Starbucks/images_3_dhdoyb.jpg"
+    }
+  ]
+  
