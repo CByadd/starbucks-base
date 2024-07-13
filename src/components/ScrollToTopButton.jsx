@@ -1,4 +1,3 @@
-// src/components/ScrollToTopButton.js
 import { useState, useEffect, useRef } from 'react';
 import styles from '../styles/ScrollToTopButton.module.css';
 import { FaArrowUp } from "react-icons/fa";
@@ -37,7 +36,7 @@ const ScrollToTopButton = () => {
       <div ref={footerRef}></div>
       {isVisible && (
         <div className={styles.scroll_to_top_section}>
-<h1>you have reached the end of the page</h1>
+<h1>You have reached the end of the page</h1>
         <div className={styles.scroll_to_top} onClick={scrollToTop}>
         <FaArrowUp />
         </div>

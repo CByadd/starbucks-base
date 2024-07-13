@@ -70,3 +70,9 @@
     right: 0;
   }
   
+
+  @media (max-width: 500px){
+    .slider{
+      width: 100%;
+    }
+  }

@@ -30,14 +30,21 @@
   z-index: 100;
 }
 
-.store_locator_backdrop_blur{
-    width: 100dvw;
-    height: 100dvh;
-    background: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+.store_locator_main_container {
+  background: white;
+  width: 80dvw;
+  height: max-content;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  font-family: primary-font-Medium;
+  color: #000;
+  
+
 }
 
 .store_locator_searchbox_container{
@@ -57,21 +64,6 @@
   width: 100%;
 }
 
-.store_locator_main_container {
-    background: white;
-    width: 80dvw;
-    height: max-content;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
-    font-family: primary-font-Medium;
-    color: #000;
-    
-
-  }
   
   .store_locator_container {
     position: relative;

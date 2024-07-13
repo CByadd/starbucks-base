@@ -78,3 +78,5 @@ const StoreLocator = ({ isOpen, onClose }) => {
 };
 
 export default StoreLocator;
+
+

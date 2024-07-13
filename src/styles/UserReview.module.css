@@ -59,13 +59,6 @@
 
 }
 
-.user_review_text_review_box_image{
-    position: absolute;
-    width: 50px;
-    right: 5px;
-    top: 5px;
-    transition: .2s ease-in-out;
-}
 
 .user_review_text_container{
     /* background: lightcoral; */
@@ -86,6 +79,17 @@
     padding: 10px;
     font-size: .7rem;
 }
+
+
+
+.user_review_text_review_box_image{
+    position: absolute;
+    width: 50px;
+    right: 5px;
+    top: 5px;
+    transition: .2s ease-in-out;
+}
+
 .user_review_text_name_container{
     display: flex;
 }

@@ -1,4 +1,4 @@
-/* src/styles/ScrollToTopButton.module.css */
+
 .scroll_to_top_section{
     height: 150px;
     width: 100%;
@@ -9,7 +9,7 @@
 
 .scroll_to_top {
     position: fixed;
-    bottom: 60px; /* Adjust to be above the footer */
+    bottom: 60px;
     right: 20px;
     background-color: #333;
     color: #fff;
