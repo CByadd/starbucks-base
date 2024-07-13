@@ -1,0 +1,36 @@
+.product_main_container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    font-family: primary-font-Medium;
+}
+
+
+.product_container{
+    margin: 1rem;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    z-index: 1;
+    gap: 1rem;
+}
+
+.product_container h1{
+    color: var(--highlight-color);
+}
+
+.product_container_line{
+    height: 2px;
+    background: white;
+    width: 100%;
+    display: flex;
+    position: relative;
+}

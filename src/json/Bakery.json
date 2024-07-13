@@ -1,0 +1,52 @@
+[
+    {
+        "id": "12039485694302",
+        "name": "Butter Croissant",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_Croissant-onGreen.jpg?impolicy=1by1_medium_630",
+        "price": "330",
+        "description": "Classic butter croissant with soft, flaky layers and a golden-brown crust",
+        "food_details": [{"Calories": 250},{"Fat": 14},{"Suger": 4},{"Type": "Vergitarian"}],
+        "category": "Bakery",
+        "product_type": "Bakery"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Chocolate Croissant",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220607_ChocolateCroissant-onGreen.jpg?impolicy=1by1_medium_630",
+        "price": "930",
+        "description": "Two generous pieces of chocolate wrapped in a butter croissant with soft, flaky layers and a golden-brown crust.",
+        "food_details": [{"Calories": 300},{"Fat": 18},{"Suger": 11},{"Type": "Vergitarian"}],
+        "category": "Bakery",
+        "product_type": "Bakery"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Chocolate Chip Cookie",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190129_ChocolateChipCookie.jpg?impolicy=1by1_medium_630",
+        "price": "930",
+        "description": "Semisweet chocolate chips mixed in a thick, chewy cookie--soft on the inside and crunchy on the outside",
+        "food_details": [{"Calories": 370},{"Fat": 19},{"Suger": 31},{"Type": "Vergitarian"}],
+        "category": "Bakery",
+        "product_type": "Bakery"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Everything Bagel",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190821_EverythingBagel_US.jpg?impolicy=1by1_medium_630",
+        "price": "630",
+        "description": "Soft, chewy and thick New York-style bagel topped with onion, garlic, salt, poppy and sesame seeds. Available with cream cheese or butter.",
+        "food_details": [{"Calories": 290},{"Fat": 2.5},{"Suger": 5},{"Type": "Vergitarian"}],
+        "category": "Bakery",
+        "product_type": "Bakery"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Double Chocolate Brownie",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190715_DoubleChocolateChunkBrownie.jpg?impolicy=1by1_medium_630",
+        "price": "480",
+        "description": "Rich chocolate brownie with generous chunks of semisweet chocolate.",
+        "food_details": [{"Calories": 480},{"Fat": 28},{"Suger": 37},{"Type": "Vergitarian"}],
+        "category": "Bakery",
+        "product_type": "Bakery"
+        }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "id": "12039485694302",
+        "name": "Crispy Grilled Cheese on Sourdough",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220207_GrilledCheeseOnSourdough_US.jpg?impolicy=1by1_medium_630",
+        "price": "570",
+        "description": "A blend of white Cheddar and mozzarella cheeses on sourdough bread, topped with a Parmesan butter spread.",
+        "food_details": [{"Calories": 520},{"Fat": 27},{"Suger": 1},{"Type": "Vergitarian"}],
+        "category": "Lunch",
+        "product_type": "Lunch"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Ham & Swiss on Baguette",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20221006_HamSwissOnBaguette.jpg?impolicy=1by1_medium_630",
+        "price": "870",
+        "description": "Ham and Swiss cheese meld with Dijon butter on a toasted baguette.",
+        "food_details": [{"Calories": 500},{"Fat": 24},{"Suger": 1},{"Type": "Vergitarian"}],
+        "category": "Lunch",
+        "product_type": "Lunch"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Turkey, Provolone & Pesto on Ciabatta",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20221006_TurkeyProvolonePestoOnCiabatta.jpg?impolicy=1by1_medium_630",
+        "price": "970",
+        "description": "Thick-sliced turkey breast, melted provolone cheese, dry-roasted red peppers and basil pesto on a ciabatta roll.",
+        "food_details": [{"Calories": 520},{"Fat": 19},{"Suger": 3},{"Type": "Vergitarian"}],
+        "category": "Lunch",
+        "product_type": "Lunch"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Turkey, Provolone & Pesto on Ciabatta",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20221006_TurkeyProvolonePestoOnCiabatta.jpg?impolicy=1by1_medium_630",
+        "price": "570",
+        "description": "Thick-sliced turkey breast, melted provolone cheese, dry-roasted red peppers and basil pesto on a ciabatta roll.",
+        "food_details": [{"Calories": 520},{"Fat": 19},{"Suger": 4},{"Type": "Non-Vergitarian"}],
+        "category": "Lunch",
+        "product_type": "Lunch"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Tomato & Mozzarella on Focaccia",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220207_TomatoMozzarellaFocacciaPanini.jpg?impolicy=1by1_medium_630",
+        "price": "570",
+        "description": "Roasted tomatoes, mozzarella, spinach and basil pesto layered on toasted focaccia bread.",
+        "food_details": [{"Calories": 360},{"Fat": 12},{"Suger": 2},{"Type": "Vergitarian"}],
+        "category": "Lunch",
+        "product_type": "Lunch"
+        }
+]

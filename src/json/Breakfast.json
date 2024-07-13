@@ -1,0 +1,53 @@
+[
+    {
+        "id": "12039485694302",
+        "name": "Bacon, Sausage & Egg Wrap",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20191018_BaconSausageCageFreeEggWrap.jpg?impolicy=1by1_medium_630",
+        "price": "478",
+        "description": "Double-smoked bacon, savory pork sausage and cage-free scrambled eggs combined with Cheddar cheese and potatoes—all wrapped in a flour tortilla.",
+        "food_details": [{"Calories": 640},{"Fat": 33},{"Suger": 2},{"Type": "Non-Vergitarian"}],
+        "category": "Breakast",
+        "product_type": "Breakast"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Egg, Pesto & Mozzarella Sandwich",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/EggPestoMozzarellaSandwich.jpg?impolicy=1by1_medium_630",
+        "price": "788",
+        "description": "Fluffy, cage-free egg frittata with kale, basil pesto and mozzarella on a toasted Cheddar and onion bun. An herbaceous twist on a classic egg and cheese sandwich.",
+        "food_details": [{"Calories": 390},{"Fat": 16},{"Suger": 2},{"Type": "Non-Vergitarian"}],
+        "category": "Breakast",
+        "product_type": "Breakast"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Bacon, Gouda & Egg Sandwich",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_BaconGoudaEggSandwich.jpg?impolicy=1by1_medium_630",
+        "price": "900",
+        "description": "Sizzling applewood-smoked bacon, Parmesan cage-free egg frittata and melted aged Gouda on an artisan roll.",
+        "food_details": [{"Calories": 360},{"Fat": 18},{"Suger": 2},{"Type": "Non-Vergitarian"}],
+        "category": "Breakast",
+        "product_type": "Breakast"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_BaconCheddarEggSandwich.jpg?impolicy=1by1_medium_630",
+        "price": "718",
+        "description": "Bacon smoked for six hours over hickory wood chips, stacked with a cage-free fried egg, topped with a melted slice of sharp Cheddar cheese—all on our signature croissant bun.",
+        "food_details": [{"Calories": 500},{"Fat": 27},{"Suger": 8},{"Type": "Non-Vergitarian"}],
+        "category": "Breakast",
+        "product_type": "Breakast"
+        },
+    {
+        "id": "12039485694302",
+        "name": "Spinach, Feta & Egg White Wrap",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20181219_SpinachFetaWrap.jpg?impolicy=1by1_medium_630",
+        "price": "878",
+        "description": "Cage-free egg whites are combined with spinach, feta cheese and sun-dried tomato cream cheese inside a whole-wheat wrap.",
+        "food_details": [{"Calories": 290},{"Fat": 8},{"Suger": 5},{"Type": "Non-Vergitarian"}],
+        "category": "Breakast",
+        "product_type": "Breakast"
+        }
+  
+]

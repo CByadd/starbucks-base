@@ -9,8 +9,8 @@ import ScrollToTopButton from './components/ScrollToTopButton';
 import reviews from './json/UserReview.json';
 import UserReviewe from './components/UserReviewe';
 import styles_user_review from './styles/UserReview.module.css';
-import Slidersdata from './json/Slider.json';
-import Slider from './components/Slider.jsx';
+
+import Products from './layouts/Products.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,13 +26,10 @@ function App() {
     
     
      <Navbar/>
-    
-    <Slider data={Slidersdata}/>
-
-    
+     <Products/>
    <div className={styles_user_review.user_review_main_container}>
    {reviews.map((item, index) => (
-          <UserReviewe key={index} username={item.username} comment={item.comment} image={item.image}/>
+          <UserReviewe key={index} username={item.username}  image={item.image}/>
         ))}
    </div>
    <div className={stylesFAQ.faq_container}>

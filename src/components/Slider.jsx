@@ -29,8 +29,8 @@ const Slider = ({ data }) => {
       <div className={styles.slider} ref={sliderRef}>
         {data.map((item) => (
           <div className={`${styles.slide} slide`} key={item.id}>
+           <span className={styles.slide_image_holder}> <img src={item.image} alt="image" /></span>
             <h3>{item.name}</h3>
-            <img src="https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720816761/771598d3-8b50-46ab-8b5b-c66ed800e04e_c0oe54.png" alt="image" />
           </div>
         ))}
       </div>

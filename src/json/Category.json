@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Drinks",
+        "image": "https://starbucks.in/assets/icon/Drinks.webp"
+    },
+    {
+        "category": "Breakfast",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220125_ChickenMapleButterSandwich.jpg?impolicy=1by1_medium_630"
+    },
+    {
+        "category": "Lunch",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220207_GrilledCheeseOnSourdough_US.jpg?impolicy=1by1_medium_630"
+    },
+    {
+        "category": "Bakery",
+        "image": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190821_EverythingBagel_US.jpg?impolicy=1by1_medium_630"
+    },
+    {
+        "category": "Food",
+        "image": "https://starbucks.in/assets/icon/Food.webp"
+    },
+    {
+        "category": "Merchandise",
+        "image": "https://starbucks.in/assets/icon/Merchandise.webp"
+    },
+    {
+        "category": "Coffe At Home",
+        "image": "https://starbucks.in/assets/icon/CoffeeAtHome.webp"
+    },
+    {
+        "category": "Ready to Eat",
+        "image": "https://starbucks.in/assets/icon/ReadyToEat.webp"
+    }
+]
