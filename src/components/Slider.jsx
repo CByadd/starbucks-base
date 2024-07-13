@@ -10,10 +10,10 @@ const Slider = ({ data }) => {
   useEffect(() => {
     const slider = sliderRef.current;
     if (slider) {
-      const slideWidth = 400; 
+      const slideWidth = slider.querySelector('.slide').offsetWidth;
       slider.scrollLeft = currentIndex * slideWidth;
     }
-  }, [currentIndex]);
+  }, [currentIndex, data.length]);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, data.length - 1));
@@ -28,7 +28,7 @@ const Slider = ({ data }) => {
       <button onClick={prevSlide} className={styles.slider_button}><IoIosArrowBack /></button>
       <div className={styles.slider} ref={sliderRef}>
         {data.map((item) => (
-          <div className={styles.slide} key={item.id}>
+          <div className={`${styles.slide} slide`} key={item.id}>
             <h3>{item.name}</h3>
             <img src="https://res.cloudinary.com/dvmuf6jfj/image/upload/v1720816761/771598d3-8b50-46ab-8b5b-c66ed800e04e_c0oe54.png" alt="image" />
           </div>
